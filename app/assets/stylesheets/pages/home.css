@@ -1,0 +1,33 @@
+.home-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh; /* 画面いっぱいに中央寄せ */
+}
+  
+.logo {
+  margin-bottom: 20px; /* ロゴの下に余白 */
+}
+  
+.logo-img {
+  width: 200px; /* ロゴサイズ調整 */
+  height: auto;
+}
+  
+.button-container {
+  display: flex;
+  flex-direction: column;
+  gap: 15px; /* ボタン間の余白 */
+}
+  
+.button-img {
+  width: 180px; /* ボタンのサイズ */
+  height: auto;
+  cursor: pointer;
+  transition: opacity 0.3s ease;
+}
+  
+.button-img:hover {
+  opacity: 0.8; /* ホバー時の効果 */
+}
